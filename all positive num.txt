@@ -1,0 +1,18 @@
+S=input()
+
+positive=list()
+
+list_val=list()
+
+print(S)
+
+L=S.split(",")
+
+
+for i in L:
+    
+    if (int(i)>0):
+
+        positive.append(i)
+
+print(positive)
